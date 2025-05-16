@@ -1,0 +1,92 @@
+
+.body{
+  font-family: 'Roboto', sans-serif;
+}
+.navbar{
+  background-color: #28a745;
+  text-align: right;
+
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: white;
+}
+.logo{
+  margin-left: 25px;
+  height: 40px;
+
+}
+.card-u {
+  font-size: 15PX;
+  color: #707070;
+  font-weight: 300;
+}
+
+.navbar-collapse {
+  display: flex;
+  justify-content: flex-end;
+}
+
+
+.card-container {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 100px;
+}
+
+.card {
+  max-width: 300px;
+  flex:  300px;
+}
+
+.precio {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  font-size: 15px;
+}
+
+.precio s {
+  color: #6c757d;
+  margin-right: 10px;
+}
+
+.precio span {
+  color: #28a745;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.form-control {
+  margin-top: 10px;
+}
+
+.footer-bottom {
+  margin-top: 50px;
+}
+
+.pie-pagina {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.txt {
+  text-align: center;
+}
+
+
+.card-container .card .img {
+  width: 300px;
+  height: 250px; 
+  object-fit: cover;
+}
+
+.logo-black {
+  height: 24px;
+}
